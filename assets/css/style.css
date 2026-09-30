@@ -1,5 +1,6 @@
 :root{
     --primaryFont: Poppins;
+    --primaryColor: #252641;
 }
 body{
     font-family: var(--primaryFont);
@@ -19,7 +20,7 @@ header nav{
 header a{
     color: #5B5B5B;
 }
-.account img{
+header.account img{
     margin-right:12px;
 }
 header .account{
@@ -27,7 +28,79 @@ header .account{
     font-weight: 500;
 }
 .lesson .container{
-    background-color : #9DCCFF;
+        background-color: rgba(157, 204, 255, 0.2);
 
+    padding-bottom:155px;
+}
+.lesson h2{
+    color:var(--primaryColor);
+    font-size: 36px;
+    font-weight: 600;
 }
 
+.lesson .title p{
+    color:#49BBBD;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+}
+.lesson .title .row{
+    justify-content: space-between;
+    padding-left:18px;
+    padding-right: 120px;
+    padding-top:52px;
+}
+.lesson .account img{
+    margin-right:15px;
+}
+.lesson .account{
+    margin-bottom: 50.64px;
+    margin-top:10px;
+}
+.lesson .item h3{
+    font-weight: 500;
+    font-size:24px;
+    margin-top: 12px;
+    color:var(--primaryColor);
+}
+.lesson .item{
+    padding-top : 19.6px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius : 20px;
+    background-color: white;
+}
+.lesson p{
+    color: #00000080;
+    font-weight: 600;
+    font-size:14px;
+   
+}
+.lesson .item  p {
+    text-align: end;
+}
+.lesson .items{
+    gap:50px;
+}
+.lesson .items {
+    padding : 0 65px;
+    margin-top:50px;
+    
+}  
+.lesson .item{
+    width: calc((100% - 100px) / 3);
+}
+.lesson .title-img img{
+    width:100%;
+}
+.category h2{
+    color:  var(--primaryColor);
+    font-size: 36px;
+    font-weight: 600 ;
+    margin-top:82px;
+    margin-bottom: 53px;
+}
+.category .items{
+ gap:88px;
+}
