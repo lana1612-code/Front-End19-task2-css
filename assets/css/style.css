@@ -1,6 +1,7 @@
 :root{
     --primaryFont: Poppins;
     --primaryColor: #252641;
+    --secondaryColor: #696984;
 }
 body{
     font-family: var(--primaryFont);
@@ -103,4 +104,60 @@ header .account{
 }
 .category .items{
  gap:88px;
+}
+.category .item{
+    border-radius: 20px ;
+    text-align: center;
+    box-shadow: 0 18.83px 47.08px 0 rgba(47, 50, 125, 0.1);
+    padding-top : 30px;
+    padding-bottom: 60px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 80px;
+    width:calc((100% - 264px )/4);
+}
+.category .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90px;
+    width: 99px;
+    border-radius: 4px;
+}
+.category .item h3{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.category .item p{
+    color:var(--secondaryColor);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    word-break: normal;
+}
+.category .color1{
+    background-color: #49BBBD4D;
+}
+.category .color2{
+    background-color: #5B72EE4D;
+}
+.category .color3{
+    background-color: #9DCCFF4D;
+}
+.category .color4{
+    background-color: #00CBB84D;
+}
+.category .color5{
+    background-color: #F48C064D;
+}
+.category .color6{
+    background-color: #EE645B4D;
+}
+.category .color7{
+    background-color: #2526414D;
+}
+.category .color8{
+    background-color: #00CBB84D;
 }
