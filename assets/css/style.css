@@ -1,0 +1,33 @@
+:root{
+    --primaryFont: Poppins;
+}
+body{
+    font-family: var(--primaryFont);
+}
+header{
+    padding-top : 30px;
+}
+header .row{
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    gap : 80px;
+    font-size : 22px;
+    font-weight: 400;
+}
+header a{
+    color: #5B5B5B;
+}
+.account img{
+    margin-right:12px;
+}
+header .account{
+    font-size: 18px;
+    font-weight: 500;
+}
+.lesson .container{
+    background-color : #9DCCFF;
+
+}
+
