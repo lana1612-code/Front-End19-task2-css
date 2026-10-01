@@ -103,6 +103,7 @@ header a{
 .lesson .title-img img{
     width:100%;
 }
+/* category section*/
 .category h2{
     color:  var(--primaryColor);
     font-size: 36px;
@@ -173,6 +174,9 @@ header a{
 .recommended .container{
     margin-top:15px;
     background-color: rgba(157, 204, 255, 0.2);
+    padding-left : 122px;
+    padding-right : 122px;
+    padding-bottom: 208px;
 }
 .recommended .title .row 
 {
@@ -208,13 +212,14 @@ header a{
     font-weight: 500;
     font-size: 24px;
     color: var(--primaryColor);
+    padding-bottom: 21px;
 }
-.recommended .icons .paddingP{
-    margin-top: 20px;
+.recommended .paddingP{
     margin-bottom: 18px;
     color: var(--secondaryColor);
     font-size: 18px;
     font-weight: 400;
+    line-height: 1.8;
 }
 .recommended .item .old{
     color : var(--secondaryColor);
@@ -233,7 +238,22 @@ header a{
 .recommended .item .price{
     justify-content: space-between;
 }
-
+.recommended .items{
+    gap :50px;
+    align-items: stretch;
+}
+.recommended .item{
+    width: calc((100% - 150px) / 4);
+}
+.recommended .account1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recommended .account1 img{
+    margin-right: 15px;
+    width:100%;
+}
 
 /* Footer Section */
 footer{ 
