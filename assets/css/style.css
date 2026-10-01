@@ -2,12 +2,15 @@
     --primaryFont: Poppins;
     --primaryColor: #252641;
     --secondaryColor: #696984;
+    --footerColor: #B2B3CF;
 }
 body{
     font-family: var(--primaryFont);
 }
+/* Header section */
 header{
     padding-top : 30px;
+    padding-bottom: 30px;
 }
 header .row{
     justify-content: space-between;
@@ -21,16 +24,17 @@ header nav{
 header a{
     color: #5B5B5B;
 }
-header.account img{
-    margin-right:12px;
+
+ .account img{
+    margin-right:15px;
 }
-header .account{
+ .account{
     font-size: 18px;
     font-weight: 500;
 }
+/* lesson section */
 .lesson .container{
-        background-color: rgba(157, 204, 255, 0.2);
-
+    background-color: rgba(157, 204, 255, 0.2);
     padding-bottom:155px;
 }
 .lesson h2{
@@ -72,11 +76,15 @@ header .account{
     border-radius : 20px;
     background-color: white;
 }
-.lesson p{
+.lesson .item .colorP{
     color: #00000080;
     font-weight: 600;
     font-size:14px;
-   
+}
+.lesson .item .name-account{
+    color: #000000;
+    font-weight: 600;
+    font-size:14px;
 }
 .lesson .item  p {
     text-align: end;
@@ -160,4 +168,133 @@ header .account{
 }
 .category .color8{
     background-color: #00CBB84D;
+}
+/*  Recommended Section */
+.recommended .container{
+    margin-top:15px;
+    background-color: rgba(157, 204, 255, 0.2);
+}
+.recommended .title .row 
+{
+    justify-content:space-between;
+}
+.recommended .title h2{
+    font-size: 30px;
+    font-weight : 500px;
+    letter-spacing: 0.02;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.recommended .title p{
+    color: #49BBBD;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: bold;
+} 
+.recommended .item{
+    border-radius: 20px;
+    background-color: white;
+    padding : 20px;
+}
+.recommended img {
+    width: 100%;
+}
+.recommended .item .icons{
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.recommended .item h3{
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--primaryColor);
+}
+.recommended .icons .paddingP{
+    margin-top: 20px;
+    margin-bottom: 18px;
+    color: var(--secondaryColor);
+    font-size: 18px;
+    font-weight: 400;
+}
+.recommended .item .old{
+    color : var(--secondaryColor);
+    text-decoration: line-through;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
+.recommended .item .now{
+    color : #49BBBD;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding-left : 14px;
+}
+.recommended .item .price{
+    justify-content: space-between;
+}
+
+
+/* Footer Section */
+footer{ 
+    background-color: var(--primaryColor);
+    TEXT-ALIGN: center;
+}
+footer  img{
+padding-bottom: 95px;
+padding-top: 75px;
+}
+footer h3{
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color : VAR(--footerColor);
+    padding-bottom: 20px;
+}
+footer p {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    COLOR: VAR(--footerColor);
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+}
+footer .row{
+    justify-content: center;
+    gap : 22px;
+    padding-bottom: 96px;
+    align-items: center;
+}
+footer button {
+    background-color : #49BBBD;
+    border-radius: 60px;
+    border : none;
+    padding : 14px 36px;
+    font-size: 22px;
+    font-weight: 500;
+    color : white;
+}
+footer input 
+{
+    border : 1px solid #83839A;
+    border-radius: 80px;
+    color : #83839A;
+    background-color: transparent;
+    width:425px;
+    padding-top:15px;
+    padding-left : 32px;
+    padding-bottom:15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+footer nav a{
+    color : var(--footerColor);
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+}
+footer nav{
+    display : flex;
+    justify-content: center;
+    gap : 42.5px;
 }
