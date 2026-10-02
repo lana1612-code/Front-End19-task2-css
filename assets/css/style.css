@@ -59,27 +59,26 @@ header a{
     header nav{
         display : none;
     }
+    .container{
+    width:calc(100% - 120px);
+    margin:auto;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
     header nav{
         display: flex;
         gap : 20px;
         font-size : 18px;
         font-weight: 300;
     }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-     header nav{
-        display: flex;
-        gap : 30px;
-        font-size : 18px;
-        font-weight: 300;
+    .container{
+    width:calc(100% - 180px);
+    margin:auto;
     }
 }
+
 /* lesson section */
 .lesson .container{
     background-color: rgba(157, 204, 255, 0.2);
@@ -229,13 +228,14 @@ header a{
 .recommended .title .row 
 {
     justify-content:space-between;
+    margin-bottom: 50px;
+    margin-top: 100px;
 }
 .recommended .title h2{
     font-size: 30px;
     font-weight : 500;
     letter-spacing: 0.02;
-    margin-bottom: 50px;
-    margin-top: 100px;
+    
 }
 .recommended .title p{
     color: #49BBBD;
@@ -313,14 +313,15 @@ header a{
 }
 .courses .title .row 
 {
+    margin-bottom: 50px;
+    margin-top: 100px;
     justify-content:space-between;
 }
 .courses .title h2{
     font-size: 30px;
     font-weight : 500;
     letter-spacing: 0.02;
-    margin-bottom: 50px;
-    margin-top: 100px;
+    
 }
 .courses .title p{
     color: #49BBBD;
@@ -391,6 +392,140 @@ header a{
     margin-right: 15px;
     width:100%;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container{
+    width:calc(100% - 50px);
+    margin:auto;
+    }
+    .courses .title h2{
+        font-size: 14px;
+        font-weight : 300;
+    }
+    .courses .title p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .courses .item{
+     width: 100% ;
+    }
+    .courses .container{
+    padding-top:15px;
+    padding-left : 50px;
+    padding-right : 50px;
+    padding-bottom: 208px;
+    }
+    .courses .item .old{
+    font-size: 12px;
+    font-weight: 500;
+}
+.courses .item .now{
+    font-size: 12px;
+    font-weight: 500;
+    padding-left : 8px;
+}
+.courses .account1 img{
+    margin-right: 10px;
+    width:70%;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+     .container{
+    width:calc(100% - 100px);
+    margin:auto;
+    }
+    .courses .title h2{
+        font-size: 20px;
+        font-weight : 300;
+    }
+    .courses .title p{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .courses .item{
+     width: 90% ;
+    }
+    .courses .container{
+    padding-top:15px;
+    padding-left : 50px;
+    padding-right : 50px;
+    padding-bottom: 208px;
+    }
+    .courses .item .old{
+    font-size: 12px;
+    font-weight: 500;
+    }
+    .courses .item .now{
+        font-size: 12px;
+        font-weight: 500;
+        padding-left : 8px;
+    }
+    .courses .account1 img{
+        margin-right: 10px;
+        width:70%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+     .container{
+    width:calc(100% - 120px);
+    margin:auto;
+    }
+    .courses .title h2{
+        font-size: 18px;
+        font-weight : 300;
+    }
+    .courses .title p{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .courses .item{
+     width: calc((100% - 120px) / 2);
+    }
+    .courses .container{
+    padding-top:15px;
+    padding-left : 50px;
+    padding-right : 50px;
+    padding-bottom: 208px;
+    }
+    .courses .item .old{
+    font-size: 12px;
+    font-weight: 500;
+}
+.courses .item .now{
+    font-size: 12px;
+    font-weight: 500;
+    padding-left : 8px;
+}
+.courses .account1 img{
+    margin-right: 10px;
+    width:70%;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .courses .title h2{
+        font-size: 22px;
+        font-weight : 300;
+    }
+    .courses .title p{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .courses .item{
+     width: calc((100% - 150px) / 2);
+    }
+    .container{
+    width:calc(100% - 180px);
+    margin:auto;
+    }
+   
+}
+
 /* Footer Section */
 footer{ 
     background-color: var(--primaryColor);
@@ -489,10 +624,18 @@ footer nav{
     footer nav{
         gap : 20px;
     }
+    .container{
+    width:calc(100% - 50px);
+    margin:auto;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+    .container{
+    width:calc(100% - 100px);
+    margin:auto;
+    }
     footer h3{
     font-size: 16px;
     font-weight: 200;
@@ -530,6 +673,10 @@ footer nav{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .container{
+    width:calc(100% - 120px);
+    margin:auto;
+    }
     footer h3{
     font-size: 16px;
     font-weight: 200;
@@ -555,7 +702,7 @@ footer nav{
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
     footer h3{
     font-size: 20px;
     font-weight: 300;
@@ -577,31 +724,5 @@ footer nav{
     footer nav a{
         font-size: 18px;
         font-weight: 200;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    footer h3{
-    font-size: 22px;
-    font-weight: 400;
-    }
-    footer p {
-        font-size: 20px;
-        font-weight: 300;
-    }
-    footer button {
-        font-size: 20px;
-        font-weight: 400;
-    }
-    footer input 
-    {
-        width:425px;
-        font-size: 18px;
-        font-weight: 300;
-    }
-    footer nav a{
-        font-size: 20px;
-        font-weight: 300;
     }
 }
