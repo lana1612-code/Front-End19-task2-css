@@ -37,12 +37,20 @@ header a{
     header nav{
         display : none;
     }
+    .container{
+    width:calc(100% - 50px);
+    margin:auto;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     header nav{
         display : none;
+    }
+    .container{
+    width:calc(100% - 100px);
+    margin:auto;
     }
 }
 
@@ -62,6 +70,7 @@ header a{
         font-weight: 300;
     }
 }
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
      header nav{
@@ -444,4 +453,155 @@ footer nav{
     display : flex;
     justify-content: center;
     gap : 42.5px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    footer h3{
+    font-size: 16px;
+    font-weight: 200;
+    }
+    footer p {
+        font-size: 12px;
+        font-weight: 100;
+    }
+    footer img{
+        width:80%;
+        padding-bottom: 60px;
+    }
+    footer button {
+        font-size: 14px;
+        font-weight: 100;
+    }
+    footer input 
+    {
+        width:200px;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    footer .row{
+      gap : 18px;
+      padding-bottom: 60px;
+    }
+    footer nav a{
+        font-size: 12px;
+        font-weight: 100;
+    }
+    footer nav{
+        gap : 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    footer h3{
+    font-size: 16px;
+    font-weight: 200;
+    }
+    footer p {
+        font-size: 12px;
+        font-weight: 100;
+    }
+    footer img{
+        width:50%;
+        padding-bottom: 60px;
+    }
+    footer button {
+        font-size: 14px;
+        font-weight: 100;
+    }
+    footer input 
+    {
+        width:200px;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    footer .row{
+      gap : 18px;
+      padding-bottom: 60px;
+    }
+    footer nav a{
+        font-size: 12px;
+        font-weight: 100;
+    }
+    footer nav{
+        gap : 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    footer h3{
+    font-size: 16px;
+    font-weight: 200;
+    }
+    footer p {
+        font-size: 16px;
+        font-weight: 100;
+    }
+    footer button {
+        font-size: 16px;
+        font-weight: 100;
+    }
+    footer input 
+    {
+        width:350px;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    footer nav a{
+        font-size: 16px;
+        font-weight: 100;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    footer h3{
+    font-size: 20px;
+    font-weight: 300;
+    }
+    footer p {
+        font-size: 18px;
+        font-weight: 200;
+    }
+    footer button {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    footer input 
+    {
+        width:425px;
+        font-size: 16px;
+        font-weight: 200;
+    }
+    footer nav a{
+        font-size: 18px;
+        font-weight: 200;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    footer h3{
+    font-size: 22px;
+    font-weight: 400;
+    }
+    footer p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    footer button {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    footer input 
+    {
+        width:425px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    footer nav a{
+        font-size: 20px;
+        font-weight: 300;
+    }
 }
