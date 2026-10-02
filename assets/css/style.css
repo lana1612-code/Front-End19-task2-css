@@ -304,6 +304,139 @@ header a{
     margin-right: 15px;
     width:100%;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container{
+    width:calc(100% - 50px);
+    margin:auto;
+    }
+    .recommended .title h2{
+        font-size: 14px;
+        font-weight : 300;
+    }
+    .recommended .title p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .recommended .item{
+     width: 100% ;
+    }
+    .recommended .container{
+    padding-top:15px;
+    padding-left : 50px;
+    padding-right : 50px;
+    padding-bottom: 208px;
+    }
+    .recommended .item .old{
+    font-size: 12px;
+    font-weight: 500;
+}
+.recommended .item .now{
+    font-size: 12px;
+    font-weight: 500;
+    padding-left : 8px;
+}
+.recommended .account1 img{
+    margin-right: 10px;
+    width:70%;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+     .container{
+    width:calc(100% - 100px);
+    margin:auto;
+    }
+    .recommended .title h2{
+        font-size: 20px;
+        font-weight : 300;
+    }
+    .recommended .title p{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .recommended .item{
+     width: 90% ;
+    }
+    .recommended .container{
+    padding-top:15px;
+    padding-left : 50px;
+    padding-right : 50px;
+    padding-bottom: 208px;
+    }
+    .recommended .item .old{
+    font-size: 12px;
+    font-weight: 500;
+    }
+    .recommended .item .now{
+        font-size: 12px;
+        font-weight: 500;
+        padding-left : 8px;
+    }
+    .recommended .account1 img{
+        margin-right: 10px;
+        width:70%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+     .container{
+    width:calc(100% - 120px);
+    margin:auto;
+    }
+    .recommended .title h2{
+        font-size: 18px;
+        font-weight : 300;
+    }
+    .recommended .title p{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .recommended .item{
+     width: calc((100% - 120px) / 2);
+    }
+    .recommended .container{
+    padding-top:15px;
+    padding-left : 50px;
+    padding-right : 50px;
+    padding-bottom: 208px;
+    }
+    .recommended .item .old{
+    font-size: 12px;
+    font-weight: 500;
+}
+.recommended .item .now{
+    font-size: 12px;
+    font-weight: 500;
+    padding-left : 8px;
+}
+.recommended .account1 img{
+    margin-right: 10px;
+    width:70%;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .recommended .title h2{
+        font-size: 22px;
+        font-weight : 300;
+    }
+    .recommended .title p{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .recommended .item{
+     width: calc((100% - 150px) / 2);
+    }
+    .container{
+    width:calc(100% - 180px);
+    margin:auto;
+    }
+   
+}
 /*  courses Section */
 .courses .container{
     padding-top:15px;
