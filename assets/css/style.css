@@ -150,6 +150,107 @@ header a{
 .lesson .title-img img{
     width:100%;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .lesson .item{
+    width: 100% ;
+}
+.lesson h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.lesson .title p{
+    font-size: 12px;
+    font-weight: 700;
+}
+.lesson .item h3{
+    font-weight: 500;
+    font-size:16px;
+    margin-top: 12px;
+}
+.lesson .items {
+    padding : 0 20px;
+    
+} 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+        .lesson .item{
+    width: 100% ;
+}
+.lesson h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.lesson .title p{
+    font-size: 12px;
+    font-weight: 700;
+}
+.lesson .item h3{
+    font-weight: 500;
+    font-size:16px;
+    margin-top: 12px;
+}
+.lesson .items {
+    padding : 0 20px;
+    
+} 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .lesson .item{
+   width: calc((100% - 50px) / 2);
+}
+.lesson h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.lesson .title p{
+    font-size: 12px;
+    font-weight: 700;
+}
+.lesson .item h3{
+    font-weight: 500;
+    font-size:16px;
+    margin-top: 12px;
+}
+.lesson .items {
+    padding : 0 20px;
+    
+} 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .lesson .item{
+   width: calc((100% - 50px) / 2);
+}
+.lesson h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.lesson .title p{
+    font-size: 12px;
+    font-weight: 700;
+}
+.lesson .item h3{
+    font-weight: 500;
+    font-size:16px;
+    margin-top: 12px;
+}
+.lesson .items {
+    padding : 0 20px;
+    
+} 
+   
+}
+
 /* category section*/
 .category h2{
     color:  var(--primaryColor);
