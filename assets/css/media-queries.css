@@ -1,0 +1,400 @@
+/* Base / Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 599px) {
+    .container{
+        width: calc(100% - 40px);
+        margin: auto;
+    }
+    header nav{
+        display: none; 
+    }
+    .logo img{
+        width: 60px;
+    }
+    .account img{
+        width: 30px;
+        margin-right: 8px;
+    }
+    .account {
+        font-size: 14px;
+    }
+    .lesson .item{
+        width: 100% ;
+    }
+    .lesson h2{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .lesson .title p{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .lesson .item h3{
+        font-weight: 500;
+        font-size:16px;
+        margin-top: 12px;
+    }
+    .lesson .items {
+        padding : 0 20px;
+        
+    }
+    .category h2{
+        font-size: 14px;
+    }
+    .category .item{
+        width:100%;
+    }
+    .recommended .title h2{
+        font-size: 14px;
+        font-weight : 300;
+    }
+    .recommended .title p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .recommended .item{
+        width: 100% ;
+    }
+    .recommended .container{
+        padding-top:15px;
+        padding-left : 50px;
+        padding-right : 50px;
+        padding-bottom: 208px;
+    }
+    .recommended .item .old{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .recommended .item .now{
+        font-size: 12px;
+        font-weight: 500;
+        padding-left : 8px;
+    }
+    .recommended .account1 img{
+        margin-right: 10px;
+        width:70%;
+    }
+    .courses .title h2{
+        font-size: 14px;
+        font-weight : 300;
+    }
+    .courses .title p{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .courses .item{
+        width: 100% ;
+    }
+    .courses .container{
+        padding-top:15px;
+        padding-left : 50px;
+        padding-right : 50px;
+        padding-bottom: 208px;
+    }
+    .courses .item .old{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .courses .item .now{
+        font-size: 12px;
+        font-weight: 500;
+        padding-left : 8px;
+    }
+    .courses .account1 img{
+        margin-right: 10px;
+        width:70%;
+    }
+    footer h3{
+    font-size: 16px;
+    font-weight: 200;
+    }
+    footer p {
+        font-size: 12px;
+        font-weight: 100;
+    }
+    footer img{
+        width:80%;
+        padding-bottom: 60px;
+    }
+    footer button {
+        font-size: 14px;
+        font-weight: 100;
+    }
+    footer input 
+    {
+        width:200px;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    footer .row{
+      gap : 18px;
+      padding-bottom: 60px;
+    }
+    footer nav a{
+        font-size: 12px;
+        font-weight: 100;
+    }
+    footer nav{
+        gap : 20px;
+    }
+}
+
+/* Small devices (portrait tablets, 600px up to 767px) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .container{
+        width: calc(100% - 60px);
+        margin: auto;
+    }
+    header nav{
+        display: none;
+    }
+    .logo img{
+        width: 65px;
+    }
+    .lesson .item{
+        width: 100% ;
+    }
+    .lesson h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .lesson .title p{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .lesson .item h3{
+        font-weight: 500;
+        font-size:16px;
+        margin-top: 12px;
+    }
+    .lesson .items {
+        padding : 0 20px;
+        
+    } 
+     .category h2{
+        font-size: 20px;
+    }
+    .category .item{
+        width:100%;
+    }
+    .recommended .title h2{
+        font-size: 20px;
+        font-weight : 300;
+    }
+    .recommended .title p{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .recommended .item{
+     width: 90% ;
+    }
+    .recommended .container{
+    padding-top:15px;
+    padding-left : 50px;
+    padding-right : 50px;
+    padding-bottom: 208px;
+    }
+    .recommended .item .old{
+    font-size: 12px;
+    font-weight: 500;
+    }
+    .recommended .item .now{
+        font-size: 12px;
+        font-weight: 500;
+        padding-left : 8px;
+    }
+    .recommended .account1 img{
+        margin-right: 10px;
+        width:70%;
+    }
+    .courses .title h2{
+        font-size: 20px;
+        font-weight : 300;
+    }
+    .courses .title p{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .courses .item{
+     width: 90% ;
+    }
+    .courses .container{
+    padding-top:15px;
+    padding-left : 50px;
+    padding-right : 50px;
+    padding-bottom: 208px;
+    }
+    .courses .item .old{
+    font-size: 12px;
+    font-weight: 500;
+    }
+    .courses .item .now{
+        font-size: 12px;
+        font-weight: 500;
+        padding-left : 8px;
+    }
+    .courses .account1 img{
+        margin-right: 10px;
+        width:70%;
+    }
+    footer h3{
+    font-size: 16px;
+    font-weight: 200;
+    }
+    footer p {
+        font-size: 12px;
+        font-weight: 100;
+    }
+    footer img{
+        width:50%;
+        padding-bottom: 60px;
+    }
+    footer button {
+        font-size: 14px;
+        font-weight: 100;
+    }
+    footer input 
+    {
+        width:200px;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    footer .row{
+      gap : 18px;
+      padding-bottom: 60px;
+    }
+    footer nav a{
+        font-size: 12px;
+        font-weight: 100;
+    }
+    footer nav{
+        gap : 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px to 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: calc(100% - 80px);
+        margin: auto;
+    }
+    header nav{
+        display: flex;
+        gap: 20px;
+        font-size: 12px;
+    }
+    .logo img{
+        width: 70px;
+    }
+    .lesson .item{
+        width: calc((100% - 50px) / 2);
+    }
+    .lesson h2{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    .lesson .title p{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .lesson .item h3{
+        font-weight: 500;
+        font-size:16px;
+        margin-top: 12px;
+    }
+    .lesson .items {
+        padding : 0 20px;
+        
+    } 
+    .category h2{
+        font-size: 22px;
+    }
+    .category .item{
+        width:calc((100% - 120px )/2);
+    }
+    .recommended .title h2{
+        font-size: 18px;
+        font-weight : 300;
+    }
+    .recommended .title p{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .recommended .item{
+        width: calc((100% - 120px) / 2);
+    }
+    .recommended .container{
+        padding-top:15px;
+        padding-left : 50px;
+        padding-right : 50px;
+        padding-bottom: 208px;
+    }
+    .recommended .item .old{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .recommended .item .now{
+        font-size: 12px;
+        font-weight: 500;
+        padding-left : 8px;
+    }
+    .recommended .account1 img{
+        margin-right: 10px;
+        width:70%;
+    }
+    .courses .title h2{
+        font-size: 18px;
+        font-weight : 300;
+    }
+    .courses .title p{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .courses .item{
+        width: calc((100% - 120px) / 2);
+    }
+    .courses .container{
+        padding-top:15px;
+        padding-left : 50px;
+        padding-right : 50px;
+        padding-bottom: 208px;
+    }
+    .courses .item .old{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .courses .item .now{
+        font-size: 12px;
+        font-weight: 500;
+        padding-left : 8px;
+    }
+    .courses .account1 img{
+        margin-right: 10px;
+        width:70%;
+    }
+    footer h3{
+    font-size: 16px;
+    font-weight: 200;
+    }
+    footer p {
+        font-size: 16px;
+        font-weight: 100;
+    }
+    footer button {
+        font-size: 16px;
+        font-weight: 100;
+    }
+    footer input 
+    {
+        width:350px;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    footer nav a{
+        font-size: 16px;
+        font-weight: 100;
+    }
+}
+

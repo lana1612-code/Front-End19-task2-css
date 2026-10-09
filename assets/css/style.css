@@ -17,11 +17,12 @@ header .row{
 }
 header nav{
     display: flex;
-    gap : 80px;
-    font-size : 22px;
-    font-weight: 400;
+    gap : 60px;
+    font-size : 13px;
+    font-weight: 500;
+    
 }
-header a{
+header  nav a{
     color: #5B5B5B;
 }
 
@@ -32,52 +33,7 @@ header a{
     font-size: 18px;
     font-weight: 500;
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    header nav{
-        display : none;
-    }
-    .container{
-    width:calc(100% - 50px);
-    margin:auto;
-    }
-}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    header nav{
-        display : none;
-    }
-    .container{
-    width:calc(100% - 100px);
-    margin:auto;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    header nav{
-        display : none;
-    }
-    .container{
-    width:calc(100% - 120px);
-    margin:auto;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    header nav{
-        display: flex;
-        gap : 20px;
-        font-size : 18px;
-        font-weight: 300;
-    }
-    .container{
-    width:calc(100% - 180px);
-    margin:auto;
-    }
-}
 
 /* lesson section */
 .lesson .container{
@@ -150,86 +106,7 @@ header a{
 .lesson .title-img img{
     width:100%;
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .lesson .item{
-    width: 100% ;
-}
-.lesson h2{
-    font-size: 16px;
-    font-weight: 600;
-}
 
-.lesson .title p{
-    font-size: 12px;
-    font-weight: 700;
-}
-.lesson .item h3{
-    font-weight: 500;
-    font-size:16px;
-    margin-top: 12px;
-}
-.lesson .items {
-    padding : 0 20px;
-    
-} 
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-        .lesson .item{
-    width: 100% ;
-}
-.lesson h2{
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.lesson .title p{
-    font-size: 12px;
-    font-weight: 700;
-}
-.lesson .item h3{
-    font-weight: 500;
-    font-size:16px;
-    margin-top: 12px;
-}
-.lesson .items {
-    padding : 0 20px;
-    
-} 
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .lesson .item{
-   width: calc((100% - 50px) / 2);
-}
-.lesson h2{
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.lesson .title p{
-    font-size: 12px;
-    font-weight: 700;
-}
-.lesson .item h3{
-    font-weight: 500;
-    font-size:16px;
-    margin-top: 12px;
-}
-.lesson .items {
-    padding : 0 20px;
-    
-} 
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-    .lesson .item{
-   width: calc((100% - 50px) / 2);
-}
 .lesson h2{
     font-size: 24px;
     font-weight: 600;
@@ -249,18 +126,18 @@ header a{
     
 } 
    
-}
+
 
 /* category section*/
 .category h2{
     color:  var(--primaryColor);
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600 ;
     margin-top:82px;
     margin-bottom: 53px;
 }
-.category .items{
- gap:88px;
+.category .row{
+ gap:24px;
 }
 .category .item{
     border-radius: 20px ;
@@ -268,10 +145,10 @@ header a{
     box-shadow: 0 18.83px 47.08px 0 rgba(47, 50, 125, 0.1);
     padding-top : 30px;
     padding-bottom: 60px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 80px;
-    width:calc((100% - 264px )/4);
+    width:calc((100% - 72px ) / 4);
 }
 .category .icon {
     display: flex;
@@ -285,12 +162,14 @@ header a{
 .category .item h3{
     padding-top: 20px;
     padding-bottom: 25px;
+    font-size: 16px;
+    font-weight: 600;
 }
 .category .item p{
     color:var(--secondaryColor);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.4;
     letter-spacing: 0.02em;
     word-break: normal;
 }
@@ -318,53 +197,16 @@ header a{
 .category .color8{
     background-color: #00CBB84D;
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .category h2{
-    font-size: 14px;
-}
-.category .item{
-    width:100%;
-}
-}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-      .category h2{
-    font-size: 20px;
-}
-.category .item{
-    width:100%;
-}
-}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-          .category h2{
-    font-size: 22px;
-}
-.category .item{
-    width:calc((100% - 120px )/2);
-}
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (min-width: 1199px){
-            .category h2{
-    font-size: 26px;
-}
-.category .item{
-    width:calc((100% - 120px )/2);
-}
-}
 
 
 /*  Recommended Section */
 .recommended .container{
     padding-top:15px;
     background-color: rgba(157, 204, 255, 0.2);
-    padding-left : 122px;
-    padding-right : 122px;
+    padding-left : 30px;
+    padding-right : 30px;
     padding-bottom: 208px;
 }
 .recommended .title .row 
@@ -401,189 +243,56 @@ header a{
     padding-bottom: 20px;
 }
 .recommended .item h3{
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 16px;
     color: var(--primaryColor);
     padding-bottom: 21px;
 }
 .recommended .paddingP{
     margin-bottom: 18px;
     color: var(--secondaryColor);
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 500;
     line-height: 1.8;
 }
 .recommended .item .old{
     color : var(--secondaryColor);
     text-decoration: line-through;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.02em;
 }
 .recommended .item .now{
     color : #49BBBD;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.02em;
-    padding-left : 14px;
+    padding-left : 8px;
 }
 .recommended .item .price{
     justify-content: space-between;
 }
 .recommended .items{
-    gap :50px;
+    gap :24px;
     align-items: stretch;
 }
 .recommended .item{
-    width: calc((100% - 150px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .recommended .account1{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .recommended .account1 img{
-    margin-right: 15px;
-    width:100%;
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .container{
-    width:calc(100% - 50px);
-    margin:auto;
-    }
-    .recommended .title h2{
-        font-size: 14px;
-        font-weight : 300;
-    }
-    .recommended .title p{
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .recommended .item{
-     width: 100% ;
-    }
-    .recommended .container{
-    padding-top:15px;
-    padding-left : 50px;
-    padding-right : 50px;
-    padding-bottom: 208px;
-    }
-    .recommended .item .old{
-    font-size: 12px;
-    font-weight: 500;
-}
-.recommended .item .now{
-    font-size: 12px;
-    font-weight: 500;
-    padding-left : 8px;
-}
-.recommended .account1 img{
-    margin-right: 10px;
-    width:70%;
-}
+    margin-right: 8px;
+    width:40%;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-     .container{
-    width:calc(100% - 100px);
-    margin:auto;
-    }
-    .recommended .title h2{
-        font-size: 20px;
-        font-weight : 300;
-    }
-    .recommended .title p{
-        font-size: 14px;
-        font-weight: 600;
-    }
-    .recommended .item{
-     width: 90% ;
-    }
-    .recommended .container{
-    padding-top:15px;
-    padding-left : 50px;
-    padding-right : 50px;
-    padding-bottom: 208px;
-    }
-    .recommended .item .old{
-    font-size: 12px;
-    font-weight: 500;
-    }
-    .recommended .item .now{
-        font-size: 12px;
-        font-weight: 500;
-        padding-left : 8px;
-    }
-    .recommended .account1 img{
-        margin-right: 10px;
-        width:70%;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-     .container{
-    width:calc(100% - 120px);
-    margin:auto;
-    }
-    .recommended .title h2{
-        font-size: 18px;
-        font-weight : 300;
-    }
-    .recommended .title p{
-        font-size: 14px;
-        font-weight: 600;
-    }
-    .recommended .item{
-     width: calc((100% - 120px) / 2);
-    }
-    .recommended .container{
-    padding-top:15px;
-    padding-left : 50px;
-    padding-right : 50px;
-    padding-bottom: 208px;
-    }
-    .recommended .item .old{
-    font-size: 12px;
-    font-weight: 500;
-}
-.recommended .item .now{
-    font-size: 12px;
-    font-weight: 500;
-    padding-left : 8px;
-}
-.recommended .account1 img{
-    margin-right: 10px;
-    width:70%;
-}
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .recommended .title h2{
-        font-size: 22px;
-        font-weight : 300;
-    }
-    .recommended .title p{
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .recommended .item{
-     width: calc((100% - 150px) / 2);
-    }
-    .container{
-    width:calc(100% - 180px);
-    margin:auto;
-    }
-   
-}
 /*  courses Section */
 .courses .container{
     padding-top:15px;
-    padding-left : 122px;
-    padding-right : 122px;
+    padding-left : 30px;
+    padding-right : 30px;
     padding-bottom: 208px;
 }
 .courses .title .row 
@@ -622,184 +331,51 @@ header a{
     padding-bottom: 20px;
 }
 .courses .item h3{
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 16px;
     color: var(--primaryColor);
     padding-bottom: 21px;
 }
 .courses .paddingP{
     margin-bottom: 18px;
     color: var(--secondaryColor);
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 500;
     line-height: 1.8;
 }
 .courses .item .old{
     color : var(--secondaryColor);
     text-decoration: line-through;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.02em;
 }
 .courses .item .now{
     color : #49BBBD;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.02em;
-    padding-left : 14px;
+    padding-left : 8px;
 }
 .courses .item .price{
     justify-content: space-between;
 }
 .courses .items{
-    gap :50px;
+    gap :24px;
     align-items: stretch;
 }
 .courses .item{
-    width: calc((100% - 150px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .courses .account1{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .courses .account1 img{
-    margin-right: 15px;
-    width:100%;
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .container{
-    width:calc(100% - 50px);
-    margin:auto;
-    }
-    .courses .title h2{
-        font-size: 14px;
-        font-weight : 300;
-    }
-    .courses .title p{
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .courses .item{
-     width: 100% ;
-    }
-    .courses .container{
-    padding-top:15px;
-    padding-left : 50px;
-    padding-right : 50px;
-    padding-bottom: 208px;
-    }
-    .courses .item .old{
-    font-size: 12px;
-    font-weight: 500;
-}
-.courses .item .now{
-    font-size: 12px;
-    font-weight: 500;
-    padding-left : 8px;
-}
-.courses .account1 img{
-    margin-right: 10px;
-    width:70%;
-}
+    margin-right: 8px;
+    width:40%;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-     .container{
-    width:calc(100% - 100px);
-    margin:auto;
-    }
-    .courses .title h2{
-        font-size: 20px;
-        font-weight : 300;
-    }
-    .courses .title p{
-        font-size: 14px;
-        font-weight: 600;
-    }
-    .courses .item{
-     width: 90% ;
-    }
-    .courses .container{
-    padding-top:15px;
-    padding-left : 50px;
-    padding-right : 50px;
-    padding-bottom: 208px;
-    }
-    .courses .item .old{
-    font-size: 12px;
-    font-weight: 500;
-    }
-    .courses .item .now{
-        font-size: 12px;
-        font-weight: 500;
-        padding-left : 8px;
-    }
-    .courses .account1 img{
-        margin-right: 10px;
-        width:70%;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-     .container{
-    width:calc(100% - 120px);
-    margin:auto;
-    }
-    .courses .title h2{
-        font-size: 18px;
-        font-weight : 300;
-    }
-    .courses .title p{
-        font-size: 14px;
-        font-weight: 600;
-    }
-    .courses .item{
-     width: calc((100% - 120px) / 2);
-    }
-    .courses .container{
-    padding-top:15px;
-    padding-left : 50px;
-    padding-right : 50px;
-    padding-bottom: 208px;
-    }
-    .courses .item .old{
-    font-size: 12px;
-    font-weight: 500;
-}
-.courses .item .now{
-    font-size: 12px;
-    font-weight: 500;
-    padding-left : 8px;
-}
-.courses .account1 img{
-    margin-right: 10px;
-    width:70%;
-}
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .courses .title h2{
-        font-size: 22px;
-        font-weight : 300;
-    }
-    .courses .title p{
-        font-size: 16px;
-        font-weight: 600;
-    }
-    .courses .item{
-     width: calc((100% - 150px) / 2);
-    }
-    .container{
-    width:calc(100% - 180px);
-    margin:auto;
-    }
-   
-}
 
 /* Footer Section */
 footer{ 
@@ -864,140 +440,4 @@ footer nav{
     justify-content: center;
     gap : 42.5px;
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    footer h3{
-    font-size: 16px;
-    font-weight: 200;
-    }
-    footer p {
-        font-size: 12px;
-        font-weight: 100;
-    }
-    footer img{
-        width:80%;
-        padding-bottom: 60px;
-    }
-    footer button {
-        font-size: 14px;
-        font-weight: 100;
-    }
-    footer input 
-    {
-        width:200px;
-        font-size: 14px;
-        font-weight: 100;
-    }
-    footer .row{
-      gap : 18px;
-      padding-bottom: 60px;
-    }
-    footer nav a{
-        font-size: 12px;
-        font-weight: 100;
-    }
-    footer nav{
-        gap : 20px;
-    }
-    .container{
-    width:calc(100% - 50px);
-    margin:auto;
-    }
-}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .container{
-    width:calc(100% - 100px);
-    margin:auto;
-    }
-    footer h3{
-    font-size: 16px;
-    font-weight: 200;
-    }
-    footer p {
-        font-size: 12px;
-        font-weight: 100;
-    }
-    footer img{
-        width:50%;
-        padding-bottom: 60px;
-    }
-    footer button {
-        font-size: 14px;
-        font-weight: 100;
-    }
-    footer input 
-    {
-        width:200px;
-        font-size: 14px;
-        font-weight: 100;
-    }
-    footer .row{
-      gap : 18px;
-      padding-bottom: 60px;
-    }
-    footer nav a{
-        font-size: 12px;
-        font-weight: 100;
-    }
-    footer nav{
-        gap : 20px;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .container{
-    width:calc(100% - 120px);
-    margin:auto;
-    }
-    footer h3{
-    font-size: 16px;
-    font-weight: 200;
-    }
-    footer p {
-        font-size: 16px;
-        font-weight: 100;
-    }
-    footer button {
-        font-size: 16px;
-        font-weight: 100;
-    }
-    footer input 
-    {
-        width:350px;
-        font-size: 14px;
-        font-weight: 100;
-    }
-    footer nav a{
-        font-size: 16px;
-        font-weight: 100;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    footer h3{
-    font-size: 20px;
-    font-weight: 300;
-    }
-    footer p {
-        font-size: 18px;
-        font-weight: 200;
-    }
-    footer button {
-        font-size: 18px;
-        font-weight: 300;
-    }
-    footer input 
-    {
-        width:425px;
-        font-size: 16px;
-        font-weight: 200;
-    }
-    footer nav a{
-        font-size: 18px;
-        font-weight: 200;
-    }
-}
